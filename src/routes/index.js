@@ -1,8 +1,8 @@
 import express from 'express';
 import { testEnvironmentVariable } from '../settings.js';
+import { indexAPI, dataMasterInventori } from '../controllers/index.js';
 const router = express.Router();
-router.get('/', function(req, res, next) {
-  return res.status(200).json({ message: testEnvironmentVariable });
-});
+router.get('/', indexAPI);
+router.get('/master/inventori', dataMasterInventori)
 
 export default router;
