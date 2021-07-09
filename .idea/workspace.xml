@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daeb6fcf-9c7e-42e7-83cc-70cd24886d08" name="Default Changelist" comment="Init commit" />
+    <list default="true" id="daeb6fcf-9c7e-42e7-83cc-70cd24886d08" name="Default Changelist" comment="Init commit">
+      <change afterPath="$PROJECT_DIR$/src/controllers/pegawai/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/jwt/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/jwt/verificator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/model_datatable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/pegawai/model_pegawai_login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/simrsv3_npm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simrsv3_npm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/master/inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/master/inventory/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.test.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/middleware/jwt/generator.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1uwuoYXYh64sRxV2EQ5u1zIu4Vp" />
   <component name="ProjectViewState">
@@ -27,8 +49,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625589148127</updated>
       <workItem from="1625589150513" duration="7511000" />
+      <workItem from="1625752728086" duration="7242000" />
+      <workItem from="1625838376936" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1625592642807</created>
@@ -70,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />

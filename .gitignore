@@ -5,3 +5,5 @@ yarn-error.log
 .editorconfig
 coverage
 build/
+keys/
+*.pub
